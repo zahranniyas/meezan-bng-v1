@@ -90,14 +90,12 @@ const Hero = () => {
 
   useGSAP(() => {
     gsap.from("#heroBigImg", {
-      x: 300,
-      duration: 2,
-      ease: "elastic",
+      x: 20,
+      ease: "power1.inOut",
     });
     gsap.from("#desc", {
       y: 15,
       opacity: 0,
-      delay: 1,
       ease: "power1.inOut",
     });
   }, [mainImgUrl]);
