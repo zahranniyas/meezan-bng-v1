@@ -86,18 +86,21 @@ const Hero = () => {
       duration: 0.3,
       ease: "power1.inOut",
     });
+  }, [imgTag]);
+
+  useGSAP(() => {
+    gsap.from("#heroBigImg", {
+      x: 300,
+      duration: 2,
+      ease: "elastic",
+    });
     gsap.from("#desc", {
       y: 15,
       opacity: 0,
       delay: 1,
       ease: "power1.inOut",
     });
-    gsap.from("#heroBigImg", {
-      x: 300,
-      duration: 2,
-      ease: "elastic",
-    });
-  }, [imgTag]);
+  }, [mainImgUrl]);
 
   return (
     <div className="min-h-[100vh] flex items-center px-[50px]">
