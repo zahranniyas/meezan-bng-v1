@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FONTS */
+
+@font-face {
+    font-family: "Regular";
+    src: local('Sande More Regular'),
+        url('./assets/fonts/SandeMoreDemo-Regular.otf') format("opentype")
+}
+
+@font-face {
+    font-family: "Medium";
+    src: local('Sande More Medium'),
+        url('./assets/fonts/SandeMoreDemo-Medium.otf') format("opentype")
+}
+
+@font-face {
+    font-family: "SemiBold";
+    src: local('Sande More Semi-bold'),
+        url('./assets/fonts/SandeMoreDemo-SemiBold.otf') format("opentype")
+}
+
+@font-face {
+    font-family: "Bold";
+    src: local('Sande More Bold'),
+        url('./assets/fonts/SandeMoreDemo-Bold.otf') format("opentype")
+}
+
+@font-face {
+    font-family: "ExtraBold";
+    src: local('Sande More Regular'),
+        url('./assets/fonts/SandeMoreDemo-ExtraBold.otf') format("opentype")
+}
+
+
+/* Quicksand Font */
+@font-face {
+    font-family: "QRegular";
+    src: local('Quicksand Regular'),
+        url('./assets/fonts/Quicksand-Regular.ttf') format("truetype")
+}
