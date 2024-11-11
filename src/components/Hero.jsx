@@ -90,7 +90,7 @@ const Hero = () => {
 
   useGSAP(() => {
     gsap.from("#heroBigImg", {
-      x: 20,
+      scale: 0.95,
       ease: "power1.inOut",
     });
     gsap.from("#desc", {
